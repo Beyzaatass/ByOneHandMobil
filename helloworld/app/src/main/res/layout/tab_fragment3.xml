@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#46A89F">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/ilanbaslikk"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFEB3B"
+            android:gravity="center"
+            android:hint="İlanınıza başlık girin.."
+            android:textColor="#230000"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/ilanbilgii"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFEB3B"
+            android:gravity="center"
+            android:hint="İlanın içeriğini girin.."
+            android:textColor="#230000"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/ilantur"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:background="#FFEB3B"
+            android:gravity="center"
+            android:hint="İlanın türünü girin.."
+            android:textColor="#230000"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/kytbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İLANI OLUŞTUR" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
